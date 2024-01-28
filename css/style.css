@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    background-color: #2d992b;
+    justify-content: space-around;
+
+}
+
+.pagetitle{
+    font-family: 'Inter', sans-serif;
+}
+
+.links a{
+    font-family: 'Inter', sans-serif;
+    margin-left: 1vw;
+    color: black;
+    font-size: larger;
+} 
+
+.bgvid video{
+    width: 70vw;
+    height: 40vw;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    left: 15vw;
+}
+
+
+.box1home{
+    background-color: rgb(255, 186, 186);
+    padding: 1.vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height:58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    display: inline-block;
+    
+}
+
+.box2home{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    float: right;
+    display: inline-block;
+}
+
+.box3page2{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    display: inline-block;
+
+    
+}
+
+.box4page2{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.box5page2{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    display: inline-block;
+    float: right;
+}
+
+.box6page3{
+    background-color: rgb(255, 186, 186);
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+    height: 550px;
+    width: 19vw;
+    box-shadow: 10px 10px;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.box7page3{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.box8page3{
+    background-color: rgb(255, 186, 186);
+    padding: 1vh;
+    border-radius: 0.5vh;
+    border-color: black;
+    border-width: 0.5vh;
+    height: 58vh;
+    width: 40vh;
+    box-shadow: 1vh 1vh;
+    display: inline-block;
+    margin-left: 10vw;
+    float: right;
+}
+
+.box1 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.box1 p{
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+.box2 h1{
+
+text-align: center;
+font-family: 'Inter', sans-serif;
+}
+
+.box2 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box2 li{
+    font-family: 'Inter', sans-serif;
+}
+
+.box3 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box3 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.box4 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.box4 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box5 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.box5 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box6 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.box6 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box7 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.box7 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box8 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+} 
+
+.box8 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+.box9 h1{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.box9 p{
+    font-size: larger;
+    font-family: 'Inter', sans-serif;
+}
+
+footer{
+    bottom: 0%;
+    background-color: #2d992b;
+    width: 98.4vw;
+    height: 11vh;
+}
+
+.icon{
+    background: url(../media/images/sprite3.png);
+    width: 66px;
+    height: 66px;
+    display:inline-block;
+}
+
+.copyright{
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#google{
+    background-position: -365px -221px;
+}
+
+#yt{
+    background-position: -439px -221px;
+}
+
+#ig{
+    background-position: -290px -221px;
+}
+
+#more{
+    background-position: -513px -221px;
+}
+
+.copyright{
+    text-align: right;
+}
+
+
+:hover.box1 {
+    transform: scale(1.1) translate(150%,0%);
+}
+
+:hover.box2 {
+    transform: scale(1.1) translate(-150%,0%);
+}
+
+:hover.box3 {
+    transform: scale(1.1);
+}
+
+:hover.box4 {
+    transform: scale(1.1);
+}
+
+:hover.box5 {
+    transform: scale(1.1);
+}
+
+:hover.box6 {
+    transform: scale(1.1);
+}
+
+:hover.box7 {
+    transform: scale(1.1);
+}
+
+:hover.box8 {
+    transform: scale(1.1);
+}
+
+:hover#yt{
+    transform: rotate(90deg);
+}
+
+:hover#google{
+    transform: rotate(90deg);
+}
+
+:hover#ig{
+    transform: skew(20deg);
+}
+
+:hover.pagetitle{
+    color:yellow;
+}
+
+:hover.copyright{
+    color:white;
+}
+
+
